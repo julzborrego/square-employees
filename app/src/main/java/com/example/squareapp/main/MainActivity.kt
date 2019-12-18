@@ -26,10 +26,8 @@ class MainActivity : AppCompatActivity() {
   }
 
   private fun initEmployeeDirectory() {
-    val columnWidthPx =
-      resources.getDimension(R.dimen.employee_card_width) * 1.4f
-    val spanCount = calculateNoOfColumns(this, columnWidthPx)
 
+    val spanCount = calculateNoOfColumns(this)
     employee_recycler_view.layoutManager = GridLayoutManager(this, spanCount)
     val employeeListAdapter =
       EmployeeRecyclerAdapter()

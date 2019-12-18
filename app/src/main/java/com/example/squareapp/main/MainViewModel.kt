@@ -26,5 +26,5 @@ class MainViewModel(private val repo: Repository, private val ioDispatcher: Coro
 
   private fun sortEmployeesByLastName(employeeList: List<Employee>) =
     employeeList.sortedBy { it.fullName.substringAfterLast(" ") }
-  
+
 }
