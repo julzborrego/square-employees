@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Square App</string>
+    <string name="employee_photo">employee photo</string>
+    <string name="sad_face">sad face</string>
+    <string name="empty_state_text">Nobody works here.</string>
+    <string name="error_state_text">Error retrieving directory info.</string>
+</resources>
